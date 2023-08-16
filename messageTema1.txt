@@ -1,0 +1,59 @@
+@everyone 1. Numere prime: Scrie un program care primește un număr de la utilizator și verifică dacă numărul 
+este prim sau nu, folosind o buclă for și instrucțiuni if.
+
+2. Factorial: Implementează un program care calculează factorialul unui număr dat de utilizator folosind o buclă while.
+
+3. Verificarea unui șir: Creează un program care primește un șir de la utilizator și verifică dacă acesta este un palindrom 
+(se citește la fel în ambele direcții), folosind o buclă for și instrucțiuni if.
+
+4. Conversie de unități: Scrie un program care convertește o valoare din metri în alte unități de măsură 
+(centimetri, kilometri, mile) în funcție de opțiunea aleasă de utilizator, folosind o instrucțiune switch.
+
+5. Calculator simplu: Implementează un calculator simplu care primește două numere și un operator matematic 
+(+, -, *, /) de la utilizator și afișează rezultatul calculului, folosind o buclă do while, instrucțiuni switch și verificări if.
+
+6. Găsirea celui mai mare număr:
+Să se scrie un program care primește trei numere și determină cel mai mare dintre ele.
+
+7. Tabla înmulțirii:
+Să se creeze o tabelă a înmulțirii pentru un număr dat, de la 1 la 10.
+
+8. Numere pare și impare:
+Să se calculeze suma numerelor pare și suma numerelor impare dintr-un interval dat [a, b], unde a și b sunt date de utilizator.
+
+9. Fibonacci:
+Să se genereze primele n elemente din șirul Fibonacci, unde n este dat de utilizator.
+
+10. Calculare medie:
+Să se calculeze media aritmetică a unui set de note dat de utilizator.
+
+11. Verificarea anului bisect:
+Să se scrie un program care primește un an și determină dacă este an bisect sau nu.
+
+12. Numărul invers:
+Să se reveseze un număr dat și să se afișeze rezultatul invers.
+
+13. Contorizarea cifrelor:
+Să se numere și să se afișeze câte cifre pare și câte cifre impare există într-un număr dat.
+
+14. Numere prime în interval:
+Să se găsească și să se afișeze toate numerele prime dintr-un interval dat [a, b], unde a și b sunt date de utilizator.
+
+15. Condiții de vârstă:
+Să se determine categoria de vârstă a unei persoane în funcție de vârsta introdusă: "copil" (0-12 ani), "adolescent" (13-19 ani), 
+"adult" (20-59 ani) sau "senior" (60+ ani).
+
+Aveti mai sus 15 probleme, rezolvati cate doriti din ele, rugamintea mea e ca toti sa aiba minim doua rezolvate :D  
+
+var numar = 5;
+var factorial = 1;
+var i = 1;
+
+while (i <= numar) {
+    factorial *= i;
+    i++;
+}
+
+console.log("Factorialul lui " + numar + " este " + factorial);
+
+P.S astea e rezolvarea la una din ele asa ca un mic ghid :D Bafta si spor la cod!
